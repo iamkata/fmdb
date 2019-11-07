@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FMDB.h"
+#import "FMDatabaseQueueController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"FMDB的使用";
     
      //1.获得数据库文件的路径
      NSString *doc=[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
@@ -44,7 +46,10 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     //[self insert];
     //[self query];
-    [self delete];
+    //[self delete];
+    
+    FMDatabaseQueueController *VC = [[FMDatabaseQueueController alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
 }
 
 //插入数据

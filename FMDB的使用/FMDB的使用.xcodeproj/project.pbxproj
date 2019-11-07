@@ -21,6 +21,7 @@
 		4D0781482372BFFD006ACE6F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0781422372BFFD006ACE6F /* FMDatabasePool.m */; };
 		4D0781492372BFFD006ACE6F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0781432372BFFD006ACE6F /* FMResultSet.m */; };
 		4D07814A2372BFFD006ACE6F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D0781442372BFFD006ACE6F /* Info.plist */; };
+		4D07814D23739FE0006ACE6F /* FMDatabaseQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07814C23739FE0006ACE6F /* FMDatabaseQueueController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		4D0781422372BFFD006ACE6F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		4D0781432372BFFD006ACE6F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		4D0781442372BFFD006ACE6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D07814B23739FE0006ACE6F /* FMDatabaseQueueController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueueController.h; sourceTree = "<group>"; };
+		4D07814C23739FE0006ACE6F /* FMDatabaseQueueController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueueController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				4D0781072372BFE8006ACE6F /* AppDelegate.m */,
 				4D0781092372BFE8006ACE6F /* ViewController.h */,
 				4D07810A2372BFE8006ACE6F /* ViewController.m */,
+				4D07814B23739FE0006ACE6F /* FMDatabaseQueueController.h */,
+				4D07814C23739FE0006ACE6F /* FMDatabaseQueueController.m */,
 				4D07810C2372BFE8006ACE6F /* Main.storyboard */,
 				4D07810F2372BFE9006ACE6F /* Assets.xcassets */,
 				4D0781112372BFE9006ACE6F /* LaunchScreen.storyboard */,
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D07810B2372BFE8006ACE6F /* ViewController.m in Sources */,
+				4D07814D23739FE0006ACE6F /* FMDatabaseQueueController.m in Sources */,
 				4D0781452372BFFD006ACE6F /* FMDatabaseQueue.m in Sources */,
 				4D0781162372BFE9006ACE6F /* main.m in Sources */,
 				4D0781472372BFFD006ACE6F /* FMDatabase.m in Sources */,
